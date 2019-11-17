@@ -1,4 +1,4 @@
-class TangramCLI < Formula
+class Cli < Formula
   desc "Machine learning for developers"
   homepage "http://www.tangramhq.com"
   url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.0-alpha.6/tangram-cli-0.1.0-alpha.6-macos-x86_64.tar.gz"
