@@ -1,6 +1,6 @@
-class Cli < Formula
-  desc "Machine learning for developers"
-  homepage "http://www.tangramhq.com"
+class Tangram < Formula
+  desc "Train and deploy a machine learning model in minutes."
+  homepage "https://www.tangramhq.com"
   version "0.1.0-alpha.6"
   if OS.mac?
     url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.0-alpha.6/tangram-cli-0.1.0-alpha.6-macos-x86_64.tar.gz"
