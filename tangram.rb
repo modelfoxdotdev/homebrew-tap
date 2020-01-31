@@ -1,13 +1,13 @@
 class Tangram < Formula
   desc "Train and deploy a machine learning model in minutes."
   homepage "https://www.tangramhq.com"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
-    url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.2/tangram-cli-0.1.2-macos-x86_64.tar.gz"
-    sha256 "1dd4327a367dd508012bc61ef85ed61b16b94e48f8b0fc9d5f3d52c506a93e21"
+    url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.3/tangram-cli-0.1.3-macos-x86_64.tar.gz"
+    sha256 "2086fb03313a6c47099a35dc367c2edea82d8527e7528bbbcd0e3e13ad47fdcb"
   elsif OS.linux?
-    url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.2/tangram-cli-0.1.2-linux-x86_64.tar.gz"
-    sha256 "64e529cc931e1f5bc41219cd61cfa245cb2fad2b84fb239623199c4a58b2563c"
+    url "https://github.com/tangram-hq/tangram-cli/releases/download/v0.1.3/tangram-cli-0.1.3-linux-x86_64.tar.gz"
+    sha256 "01dd82b614356a023ec5b17edf05f523592cdbd04330863ef4fd133f4526b105"
   end
   def install
     bin.install "tangram"
