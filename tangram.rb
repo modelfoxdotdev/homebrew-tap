@@ -1,5 +1,5 @@
 class Tangram < Formula
-  desc "Tangram is an automated machine learning framework designed for programmers."
+  desc "Tangram is an all-in-one automated machine learning framework."
   homepage "https://www.tangram.xyz"
   version "0.5.0"
   if OS.mac? and Hardware::CPU.arm?
