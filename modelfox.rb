@@ -1,4 +1,4 @@
-class ModelFox < Formula
+class Modelfox < Formula
   desc "ModelFox makes it easy to train, deploy, and monitor machine learning models."
   homepage "https://www.modelfox.dev"
   version "0.8.0"
