@@ -1,9 +1,9 @@
-# Tangram Homebrew Tap
+# ModelFox Homebrew Tap
 
-This repository holds the Homebrew formula for the Tangram CLI. 
+This repository holds the Homebrew formula for the ModelFox CLI. 
 
 First, install Homebrew with the instructions at [https://brew.sh], then run:
 
 ```bash
-brew install tangramdotdev/tap/tangram
+brew install modelfoxdotdev/tap/modelfox
 ```
