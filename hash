@@ -1,5 +1,0 @@
-for ARCH in aarch64-apple-darwin x86_64-apple-darwin aarch64-unknown-linux-gnu x86_64-unknown-linux-gnu
-do
-  echo -n "${ARCH} "
-  curl -sSL https://github.com/tangramdotdev/tangram/releases/download/v${VERSION}/tangram_cli_${VERSION}_${ARCH}.tar.gz | sha256sum | awk '{print $1}'
-done
